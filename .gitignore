@@ -51,3 +51,8 @@ desktop.ini
 
 test-results.xlsx
 *.html
+
+# QNX System Profiler / Momentics Kernel Event Trace (KEV) files
+*.kev
+*.kev.*
+*.orig
