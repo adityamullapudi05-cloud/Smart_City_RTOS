@@ -1,0 +1,53 @@
+# ==============================================================================
+# Smart City QNX RTOS Project - .gitignore
+# ==============================================================================
+
+# Build outputs and artifacts
+build/
+bin/
+*.o
+*.obj
+*.d
+*.a
+*.so
+*.sym
+
+# Compiled executables
+node1_workload
+node2_supervisor
+smart_city
+*.exe
+*.out
+
+# QNX & System crash dumps
+*.core
+core
+core.*
+
+# Temporary / backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# QNX Momentics / Eclipse user-specific files
+.settings/
+.metadata/
+*.launch
+*.sublime-workspace
+*.sublime-project
+
+# Editor / IDE directories
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.xlsx
+
+test-results.xlsx
+*.html
